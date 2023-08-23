@@ -1,12 +1,16 @@
-# A quadratic programming method for correcting and smoothing vehicle trajectories from noisy data
-
+# Two-step quadratic programming for physically meaningful smoothing of longitudinal vehicle trajectory
 ## Package requirements
+### Packages required for codes
 - Pandas
 - Numpy
 - Cvxpy
 - Gurobi
+- Matplotlib
+- Seaborn
+### Packages required for showing slides version
+- RISE
 
 
-The codes for replicating the numerical applications in the paper are provided in folder 'codes'.
+The codes for replicating the numerical applications in the paper are provided in the folder 'codes'.
 
-Processed data are accessible at 
+Input NGSIM data are accessible in the folder 'datasets', and highD datasets can be accessed at https://www.highd-dataset.com/ upon request.
